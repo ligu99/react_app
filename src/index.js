@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// 首字母需要大寫
+// import App from "./01_base/01_class"
+// import App from "./01_base/02_hanshu"
+// import App from "./01_base/03_qiantao"
+// import App from "./01_base/04_yangshi"
+// import App from "./01_base/05_shijianbangding"
+// import App from "./01_base/05_shijianbangding2"
+import App from "./01_base/07_ref"
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// React 17
+// ReactDOM.render(<div>
+//     <h1>Hello</h1>
+// </div>,document.getElementById("root"))
+
+// jsx = js+xml
+
+
+ReactDOM.render(<App></App>,document.getElementById("root"))
+
+
