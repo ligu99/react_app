@@ -1,5 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
+// import './css/index.css'
+// import './css/App.css';
+// import App from './components/TodoList'
 
 // 首字母需要大寫
 // import App from "./01_base/01_class"
@@ -14,6 +17,8 @@ import ReactDOM from "react-dom"
 // import App from "./01_base/09_liebiaoxunhuan"
 import App from "./01_base/10_todolist"
 
+
+
 // React 17
 // ReactDOM.render(<div>
 //     <h1>Hello</h1>
@@ -22,6 +27,6 @@ import App from "./01_base/10_todolist"
 // jsx = js+xml
 
 
-ReactDOM.render(<App></App>,document.getElementById("root"))
+ReactDOM.render(<App></App>, document.getElementById("root"))
 
 

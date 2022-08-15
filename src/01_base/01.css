@@ -4,3 +4,7 @@
 .green_bg{
     background: #58bc58;
 }
+.w100{
+    display: inline-block;
+    width: 100px;
+}
