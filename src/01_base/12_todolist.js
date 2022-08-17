@@ -66,7 +66,9 @@ export default class App extends Component {
         // list:this.state.list
         list: newList
       })
-      this.state.inputValue = ""
+      this.setState({
+        inputValue:""
+      })
     }
   }
   handleDel = (item) => {
