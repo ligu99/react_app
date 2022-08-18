@@ -1,24 +1,37 @@
 import React, { Component } from 'react'
 
 /**
+ * 生命周期
 constructor()
 
-static getDerivedStateFromProps(props, state)
+static getDerivedStateFromProps(nextprops, nextstate) //初始化和後續更新都會執行
 
-shouldComponentUpdate()
+shouldComponentUpdate(nextProps,nextState){ //return true 更新，return false 阻止更新
+    if(JSON.stringify(this.state)!==JSON.stringify(nextState)){
+        return true
+    }
+    return false
+}
 
 render()
 
-componentDidMount()
+componentDidMount(prevProps,prevState )
 
 static getSnapshotBeforeUpdate(prevProps, prevState)
 
-componentDidUpdate()
+componentDidUpdate() //更新后獲取Dom
 
 componentWillUnmount()
 */
 
 export default class App extends Component {
+    constructor(){
+        super()
+        this.state={
+
+        }
+    }
+    
     componentDidMount(){
         // axios
         // 訂閲函數調用
