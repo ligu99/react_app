@@ -24,7 +24,13 @@ import ReactDOM from "react-dom"
 // import App from "./01_base/16_chacao"
 // import App from "./01_base/17_shengmingzhouqi"
 // import App from "./hooks/01_hooks"
-import App from "./hooks/02_hooks"
+// import App from "./hooks/02_hooks"
+// import App from "./hooks/03_hooks"
+// import App from "./hooks/04_hooks"
+// import App from "./hooks/05_hooks"
+// import App from "./hooks/06_hooks"
+// import App from "./hooks/07_hooks"
+import App from "./hooks/08_hooks"
 
 
 
