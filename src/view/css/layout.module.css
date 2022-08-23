@@ -1,0 +1,7 @@
+/* css文件的名字加上module，则只会在引入的模块起作用 */
+li a.active{
+    color: #58bc58;
+}
+.testcolor{
+    color: #58bc58;
+}
