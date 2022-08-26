@@ -43,6 +43,4 @@ export default store
  組件調用：
  store.dispatch({type:"xxx",payload:"yyy"})
  store.getState().activePage.HomeReducer.activePage
-
-  
  */
