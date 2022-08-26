@@ -6,16 +6,23 @@ import store from "../redux/store"
 export default class App extends Component {
 
   state={
-    activePage:store.getState().activePage
+    unSubScribe:"",
+    activePage:store.getState().HomeReducer.activePage
   }
 
   componentDidMount(){
-    store.subscribe(()=>{
+    // 订阅
+    this.state.unSubScribe= store.subscribe(()=>{
       console.log("store:",store.getState());
       this.setState({
-        activePage:store.getState().activePage
+        activePage:store.getState().HomeReducer.activePage
       })
     })
+  }
+
+  componentWillUnmount(){
+    // 取消订阅
+    this.state.unSubScribe()
   }
 
   render() {

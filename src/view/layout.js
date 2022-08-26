@@ -8,6 +8,7 @@ import Deatial2 from './componts/deatial2'
 import Deatial3 from './componts/deatial3'
 import Login from './componts/login'
 import My from './componts/my'
+import store from '../redux/store'
 
 function isLogin(){
     return true
@@ -20,6 +21,16 @@ export default function Layout(props) {
         }else if(props.location.pathname!==path) {
             props.history.push(path)
         }
+        // if(path==="/layout/aaa"){
+        //     store.dispatch({
+        //         type:"in-test-bbb"
+        //     })
+        // }else{
+        //     store.dispatch({
+        //         type:"out-test-bbb"
+        //     })
+        // }
+        console.log(store);
     }
     const toDetail = (id)=>{
         console.log(id);
