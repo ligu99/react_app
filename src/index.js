@@ -23,6 +23,7 @@ import ReactDOM from "react-dom"
 // import App from "./base/15_context"
 // import App from "./base/16_chacao"
 // import App from "./base/17_shengmingzhouqi"
+import App from "./base/18_modules"
 // import App from "./hooks/01_hooks"
 // import App from "./hooks/02_hooks"
 // import App from "./hooks/03_hooks"
@@ -32,7 +33,7 @@ import ReactDOM from "react-dom"
 // import App from "./hooks/07_hooks"
 // import App from "./hooks/08_hooks"
 // import App from "./hooks/09_hooks"
-import App from "./router/App"
+// import App from "./router/App"
 
 
 
